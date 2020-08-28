@@ -1,0 +1,16 @@
+{
+  "autoload": {
+    "psr-4": {
+      "src\\": "src/"
+    },
+    "files": [
+      "src/config.php"
+    ]
+  },
+  "require": {
+    "coffeebreaks/database": "V1.0.9",
+    "coffeebreaks/mail": "V0.0.3",
+    "coffeebreaks/friendly-url": "^1.0",
+    "coffeecode/paginator": "^1.0"
+  }
+}

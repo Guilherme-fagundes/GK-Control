@@ -1,0 +1,41 @@
+{
+  "name": "coffeebreaks/mail",
+  "description": "A simple class email send",
+  "type": "library",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Guilherme-fagundes",
+      "email": "guilhermedev94@gmail.com",
+      "role": "Web develocper / System Analist"
+    }
+  ],
+  "keywords": [
+    "e-mail send",
+    "phpMailer",
+    "mail",
+    "php-mail",
+    "phpmail",
+    "mailSend"
+  ],
+  "autoload": {
+    "psr-4": {
+      "coffeebreaks\\": "coffeebreaks/"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "phpmailer/phpmailer": "^6.1"
+  },
+
+  "extra": {
+    "frameworks":
+    [
+      "laravel",
+      "symfony",
+      "codeigniter",
+      "zend"
+    ]
+  }
+}

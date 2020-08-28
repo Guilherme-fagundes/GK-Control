@@ -1,0 +1,17 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');*/
+/**{*/
+/*    font-family: 'Cairo', sans-serif;*/
+/*}*/
+body{
+    background-color: var(--primary);
+}
+.login-box{
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 3px;
+    background-color: var(--white);
+    padding: 1em 2em;
+}
+.login-box h3{
+    margin: 1em 0;
+}
