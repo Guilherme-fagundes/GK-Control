@@ -193,7 +193,7 @@ input[type=submit].btn.btn-sm{
     position: fixed;
     width: 15%;
     height: 100%;
-    background-color: var(--blue);
+    background-color: #1b1d20;
 
 }
 .left-siderbar .left-siderbar-header{
@@ -222,9 +222,9 @@ input[type=submit].btn.btn-sm{
     transition: .5s;
 }
 .left-siderbar .left-siderbar-content ul li a:hover{
-    background-color: var(--white);
-    color: var(--primary);
-    border-right: 1px solid var(--primary);
+    background-color: rgba(255,255,255,0.2);
+    color: #eee;
+
 }
 /*Header*/
 .header-top{
