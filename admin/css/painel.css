@@ -18,12 +18,14 @@
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
 }
 
-.user-item-content .formNewCategory{
+.user-item-content .formNewCategory,
+.user-item-content .formUpdateCategory{
     width: 100%;
     padding: 1em 1em;
 
 }
-.user-item-content .formNewCategory div textarea:focus{
+.user-item-content .formNewCategory div textarea:focus,
+.user-item-content .formupdateCategory div textarea:focus{
     outline: 1px solid var(--primary);
     border: 1px solid var(--primary);
 }
