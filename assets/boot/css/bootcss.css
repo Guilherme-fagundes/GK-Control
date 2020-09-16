@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    
+
 }
 
 :root {
@@ -61,7 +60,7 @@ input[type=submit].btn,
 button.btn{
     font-size: .9em;
     padding: 12px 1em;
-    border: none;
+
 }
 .btn{
     padding: 10px 1em;
@@ -82,8 +81,7 @@ a > i,
 
 }
 
-.btn.btn-sm,
-input[type=submit].btn.btn-sm{
+.btn.btn-sm{
     padding: 8px 1.5em;
 }
 .btn-border-3{
@@ -122,27 +120,6 @@ input[type=submit].btn.btn-sm{
     background-color: var(--dark);
     color: var(--white);
 }
-
-/*MESSAGES */
-.message{
-    width: 100%;
-    padding: 1em 10px;
-    margin: 1em 0;
-
-}
-.message.success{
-    background-color: var(--success);
-    color: var(--white);
-}
-.message.error{
-    background-color: var(--danger);
-    color: var(--white);
-}
-.message.warning{
-    background-color: var(--warning);
-    color: var(--white);
-}
-
 /*header-line*/
 .header-line{
     padding: 1em 0;
@@ -158,14 +135,13 @@ input[type=submit].btn.btn-sm{
 .gk-select{
     width: 100%;
     border: none;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    background-color: #f1f1f1;
     padding: 10px 10px;
     font-size: .9em;
 }
 .gk-input:focus,
 .gk-select:focus{
-    outline: 0;
-    border-bottom: 1px solid var(--primary);
+    outline: 2px solid rgba(255,255,255,0.2);
 }
 /*CARDS*/
 .cards{
@@ -193,7 +169,7 @@ input[type=submit].btn.btn-sm{
     position: fixed;
     width: 15%;
     height: 100%;
-    background-color: #1b1d20;
+    background-color: var(--blue);
 
 }
 .left-siderbar .left-siderbar-header{
@@ -222,9 +198,7 @@ input[type=submit].btn.btn-sm{
     transition: .5s;
 }
 .left-siderbar .left-siderbar-content ul li a:hover{
-    background-color: rgba(255,255,255,0.2);
-    color: #eee;
-
+    background-color: var(--indigo);
 }
 /*Header*/
 .header-top{
@@ -270,7 +244,7 @@ input[type=submit].btn.btn-sm{
     margin: 0 auto;
     top: 1em;
     position: relative;
-    
+
 }
 .main .main-content .item{
     padding: 1em 10px;
@@ -307,4 +281,3 @@ input[type=submit].btn.btn-sm{
     }
 
 }
-

@@ -19,9 +19,9 @@
                     <span class="icon"><i class="fas fa-users"></i></span>
                     <span class="title">Usuários</span>
                 </a></li>
-            <li><a href="painel.php?gk=categoria/index">
-                    <span class="icon"><i class="fas fa-book"></i></span>
-                    <span class="title">Categorias</span>
+            <li><a href="painel.php?gk=financeiro/index">
+                    <span class="icon"><i class="fas fa-dollar-sign"></i></span>
+                    <span class="title">Financeiro</span>
                 </a></li>
             <li><a href="?gk=configuracoes/todas-configuracoes">
                     <span class="icon"><i class="fas fa-cog"></i></span>

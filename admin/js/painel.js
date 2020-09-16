@@ -49,51 +49,7 @@ $(function () {
 
     })
 
-    // NOVA CATEGORIA
-    $(".formNewCategory").submit(function (e){
-        e.preventDefault();
-        var dataCategory = $(this).serialize();
+    // financeiro
 
-        $.ajax({
-            url: 'ajax/categorias/nova.php',
-            data: dataCategory,
-            dataType: 'json',
-            type: "post",
-            success: function (response){
-                if (response.error){
-                    toastr.error(response.error);
-                }else{
-                    toastr.success(response.success);
 
-                }
-
-            }
-        })
-
-    });
-
-    //ATUALIZA CATEGORIA
-    $("#updateCategory").submit(function (e) {
-        e.preventDefault();
-
-        var datacat = $(this).serialize();
-
-        $.ajax({
-            url: 'ajax/categorias/atualizar.php',
-            dataType: 'json',
-            data: datacat,
-            type: 'post',
-            success: function (response){
-                if (response.error){
-                    toastr.error(response.error);
-
-                }else{
-                    toastr.success(response.success);
-                    location.href="painel.php?gk=categoria/index";
-                }
-
-            }
-        });
-
-    });
 })

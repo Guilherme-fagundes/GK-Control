@@ -2,6 +2,9 @@
 /**{*/
 /*    font-family: 'Cairo', sans-serif;*/
 /*}*/
+*{
+    font-family: "Segoe UI", sans-serif;
+}
 
 /*admin list user*/
 
@@ -30,72 +33,23 @@
     border: 1px solid var(--primary);
 }
 
-/*Categorias*/
-.category-item-content{
-    padding: 10px 10px;
+/*Financeiro*/
+/*header-itemNav*/
+.header-item-nav a.active{
+    background-color: var(--gray-dark);
 }
-.category-item-content .ses-box{
-    padding: 1em 0;
-    margin-bottom: 1em;
-    border-bottom: 2px solid var(--blue);
-    width: 100%;
-}
-.category-item-content .ses-box .ses-box-header{
+/*Despesas nav*/
+.item .despesasNav{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
 }
-.category-item-content .ses-box .ses-box-header ul{
-    list-style: none;
-}
-.category-item-content .ses-box .ses-box-header ul li{
-    display: inline-block;
-    float: right;
-    margin-top: 20px;
-    margin-left: 5px;
-    position: relative;
-    font-size: 10px;
-
-}
-.category-item-content .ses-box .ses-box-header ul li a{
-    color: var(--white);
-    padding: 10px 5px 10px 10px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: var(--green);
-    text-align: center;
-    vertical-align: middle;
-
-}
-
-.ses-box-body{
-    width: 100%;
-    margin: 0 auto;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(4, 1fr);
-
-}
-.ses-box-body .cat-parent-box{
-    width: 100%;
-    margin: 0 auto;
-    padding: 1em 1em;
-    background-color: #ddd;
-    box-shadow: 2px 2px 0 rgba(0,0,0,0.1);
-}
-.ses-box-body .cat-parent-box .cat-parent-header h3{
-    margin-bottom: 1em;
-    color: #333;
-}
-.ses-box-body .cat-parent-box .cat-parent-footer{
-    margin-top: 2em;
- }
-.ses-box-body .cat-parent-box .cat-parent-footer a{
+.item .despesasNav a{
     text-decoration: none;
-    color: #007bff;
-    margin: 10px 10px;
-    text-shadow: 1px 2px rgba(0,0,0,0.1);
+}
+.item .despesasNav a:hover{
+    background-color: var(--indigo);
 }
 
+.item#despesas{
+    display: none;
+}
