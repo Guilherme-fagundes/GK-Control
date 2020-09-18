@@ -45,11 +45,29 @@
 }
 .item .despesasNav a{
     text-decoration: none;
+    padding: 8px 15px;
+    border: 2px solid transparent;
+    background-color: #eee;
 }
 .item .despesasNav a:hover{
-    background-color: var(--indigo);
+    border: 2px solid var(--primary);
+    background-color: var(--primary);
+    color: #eee;
+}
+.item .despesasNav a#novaDespesa{
+    background-color: var(--success);
+    color: #eee;
+}
+.item .despesasNav a#novaDespesa:hover{
+    border: 2px solid transparent;
+    background-color: green;
 }
 
 .item#despesas{
     display: none;
+}
+
+.novadespesa-header{
+    margin-bottom: 1em;
+
 }
