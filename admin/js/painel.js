@@ -49,7 +49,17 @@ $(function () {
 
     })
 
-    // financeiro
+    // MODULO FINANCEIRO
+    // Despesas :: NOVA DESPESA
 
+    $("a#novaDespesa").click(function () {
+        $("#novaDespesaBox").toggleClass('active');
+        if ($("#novaDespesaBox").hasClass('active')){
+            $("#novaDespesaBox").fadeIn(500)
+        }else{
+            $("#novaDespesaBox").fadeOut(500)
+        }
+
+    });
 
 })

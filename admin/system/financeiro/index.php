@@ -26,7 +26,7 @@
 
 </div>
 
-<div class="item novadespesaBox" id="novaDespesaBox" style="margin-bottom: 1em;">
+<div class="item novadespesaBox" id="novaDespesaBox" style="margin-bottom: 1em; display: none">
     <div class="novadespesa-header">
         <h3 class="font-weight-normal">Adicionar nova despesa</h3>
     </div>
@@ -65,7 +65,6 @@
 <script>
     $(".header-item-nav a").click(function (e){
         e.preventDefault();
-        var itemNav = this;
         var target = $(this).attr('id');
 
         switch (target){
